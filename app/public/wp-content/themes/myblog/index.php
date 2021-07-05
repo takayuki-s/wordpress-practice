@@ -74,11 +74,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+        <?php $lists = have_posts(); ?> 
+        <?php if ($lists): ?>
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              <?php $title = the_title('■', '●', false); ?>
-              <?php echo $title; ?>
+              <?php the_title(); ?>
             </h2>
             <h3 class="post-subtitle">
               Problems look mighty small from 150 miles up
@@ -132,6 +133,9 @@
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
         </div>
+        <?php else: ?>
+          <p>記事が見つかりませんでした</p>
+        <?php endif; ?>
       </div>
     </div>
   </div>
