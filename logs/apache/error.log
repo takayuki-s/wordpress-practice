@@ -17,3 +17,7 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using sakaguchitakashikounoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
 [Tue Jul 06 21:23:25.732595 2021] [mpm_event:notice] [pid 1051:tid 4515941824] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Tue Jul 06 21:23:25.733018 2021] [core:notice] [pid 1051:tid 4515941824] AH00094: Command line: '/Users/takayuki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/takayuki/Library/Application Support/Local/run/oWRLSKAu7/conf/apache/apache2.conf'
+[Tue Jul 06 21:58:49.977706 2021] [mpm_event:notice] [pid 1051:tid 4515941824] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using sakaguchitakashikounoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 07 21:40:08.113260 2021] [mpm_event:notice] [pid 2006:tid 4673289664] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed Jul 07 21:40:08.113729 2021] [core:notice] [pid 2006:tid 4673289664] AH00094: Command line: '/Users/takayuki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/takayuki/Library/Application Support/Local/run/oWRLSKAu7/conf/apache/apache2.conf'
