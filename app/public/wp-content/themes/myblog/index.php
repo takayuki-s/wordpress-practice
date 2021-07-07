@@ -88,7 +88,7 @@
               </a>
               <p class="post-meta">Posted by
                 <a href="#">Start Bootstrap</a>
-                on September 24, 2019
+                <?php the_time('Y/n/j'); ?>
               </p>
             </div>
             <hr>
