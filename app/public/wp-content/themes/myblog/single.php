@@ -1,41 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
   <?php get_header(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
   <?php get_template_part('includes/header'); ?>
-
-  <p style="padding: 10px">
-  <?php 
-  $num = 1;
-  echo $num;
-  echo '<br>';
-  echo $num + 1;
-  echo '<br>';
-  echo $num + 2;
-  echo '<br>';
-
-  // 配列
-  $tekesta = [];
-  $tekesta[1] = 'Yamada';
-  $tekesta[2] = 'Tanaka';
-  $tekesta[3] = 'Yoshioka';
-  echo $tekesta[2];
-  echo '<br>';
-
-  // 連想配列
-  $items = [];
-  $items['apple'] = 'りんご';
-  $items['peach'] = 'もも';
-  $items['grapes'] = 'グレープ';
-
-  echo $items['grapes'];
-  ?>
-  </p>
 
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
