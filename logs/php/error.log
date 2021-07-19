@@ -28,3 +28,5 @@ Stack trace:
 [14-Jul-2021 12:35:04 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
 [14-Jul-2021 12:35:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/takayuki/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php on line 18
 [14-Jul-2021 12:35:16 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Jul-2021 13:26:44 UTC] PHP Parse error:  syntax error, unexpected '$items' (T_VARIABLE), expecting ',' or ';' in /Users/takayuki/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php on line 31
+[19-Jul-2021 13:26:44 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
